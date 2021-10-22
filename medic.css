@@ -4,7 +4,7 @@
         padding:0;
 }
     body{
-        background-image:url(https://crispywolf94.qoom.space/medicalwebsite/finals.jpg);
+        background-image:url(https://crispywolf94.qoom.space/MedicalWebsiteVaccination/medicalwebsiteproject.jpg);
        background-size: cover;
         background-position: cover;
         background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 
 li a {
         text-decoration: none;
-        text-align: center;
+        text-align: left;
         color: blue;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: 700;
@@ -25,46 +25,95 @@ li a {
         border-radius: 5px;
 }
 header{
-    margin-left: 5vh;
-    font-size: 100;
+   
+    font-size: 80;
     height: 24vh;
     text-transform: uppercase;
     font-family:inherit;
     visibility: visible;
    
-    justify-content:left;
-    align-items:center;
-    align-content:left;
-    color:royalblue;
+ 
+    align-items:left;
+
+    color:#063970
+;
     width: 100%;
     margin-top:1vh;
-    background-color: skyblue;
-    margin-left:0vh;
+  
+;  background-color:rgba(34,141,185,255)
+
+   
 }
 header a{
-    color:blue;
+    color:red;
     text-decoration: none;
     padding:10px 30px;
 }
 .gmap_canvas{
     position: absolute;
     bottom:0;
-    border:2px solid black
-        height:5vh;
-    margin-left: 40vh;
-    margin-top:10vh;
+  
+        height:2vh;
+    margin-left:0vh;
+    margin-top:30vh;
+   
 }
 
 h1, h2, h3, h4, h5, h6{
         font-family: 'Serif';
+        
 }
 
 #content h1{
-     text-align: center;  
+     text-align: center; 
+     text-colour:#063970;
+   
 }
 
 #content{
         padding-top: 60px;
         padding-right: 30px;
         padding-left: 30px;
+}
+
+h1 {
+        margin: 30px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 50px;
+}
+nav {
+        margin: 5%;
+        background-color: blue;
+}
+li {
+        display: inline;
+}
+li a {
+        text-decoration: none;
+        text-align: center;
+        color:#052c63
+;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+        padding: 5px;
+        font-size: 1.3em;
+        background-color: rgba(255, 255, 255, 0.02);
+        border-radius: 1px;
+}
+
+li a:hover {
+        background-color:rgba(117,207,227,255)
+
+;
+}
+
+footer{
+        font-size:2vw;
+        color:rgb(206, 203, 203);
+        position: absolute;
+        bottom: 0;
+        width:100%;
+        text-align: center;
+        margin-bottom:10px;
 }
